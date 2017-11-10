@@ -140,7 +140,7 @@ const injectScript = `
                           WebViewBridge.send("got the message inside webview");
                         }
                       };
-                
+
                       WebViewBridge.send("hello from webview");
                     }
                   }());
@@ -159,7 +159,7 @@ var Sample2 = React.createClass({
         break;
     }
   },
-  
+
   render() {
     return (
       <WebViewBridge
